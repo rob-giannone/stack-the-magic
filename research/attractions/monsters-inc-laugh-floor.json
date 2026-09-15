@@ -1,0 +1,20 @@
+{
+  "name": "Monsters, Inc. Laugh Floor",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "rider_swap": false,
+    "description": "An interactive stand-up comedy show starring Mike Wazowski and animated Monsters, Inc. characters who riff on real-time jokes and messages from the audience.",
+    "indoor_outdoor": "indoor",
+    "attraction_type": "interactive theater show"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": []
+}

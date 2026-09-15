@@ -1,0 +1,24 @@
+{
+  "name": "Tomorrowland Speedway",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": "32 in (81 cm) or taller to ride; must be 54 in (137 cm) or taller to drive unassisted",
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap": true,
+    "description": "A gas-powered raceway ride where guests steer their own miniature sports car along a guided track.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "track ride"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" },
+    { "url": "https://allears.net/2026/05/03/what-is-rider-swap-at-disney-world-and-who-can-use-it/", "title": "What Is \"Rider Swap\" at Disney World and Who Can Use It?", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": [
+    "The 54-inch minimum to drive unassisted is standard/well-known but was not independently re-confirmed against today's official page text (only the 32-inch minimum-to-ride appeared in the scraped listing) — verify exact driving-height rule."
+  ]
+}

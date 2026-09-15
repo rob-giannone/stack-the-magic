@@ -1,0 +1,19 @@
+{
+  "name": "Prince Charming Regal Carrousel",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A classic 1917 carousel with hand-painted horses that carries guests around a spot at the front of Cinderella Castle.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "carousel"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": []
+}

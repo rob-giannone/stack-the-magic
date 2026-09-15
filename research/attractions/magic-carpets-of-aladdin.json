@@ -1,0 +1,20 @@
+{
+  "name": "The Magic Carpets of Aladdin",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "Multi Pass",
+    "rider_swap": false,
+    "description": "A spinning ride aboard four-guest magic carpets that rise and dip around a giant genie's-lamp centerpiece near Aladdin's Oasis.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "spinner"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": []
+}

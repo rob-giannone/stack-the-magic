@@ -1,0 +1,20 @@
+{
+  "name": "Astro Orbiter",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A classic spinning rocket ride that lifts guests above Tomorrowland, orbiting a central tower for sweeping views of Magic Kingdom."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": [
+    "Not listed among Magic Kingdom's 18 Multi Pass attractions per a fan-site strategy roundup; not independently confirmed on Disney's own Lightning Lane tier listing."
+  ]
+}

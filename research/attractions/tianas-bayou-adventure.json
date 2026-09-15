@@ -1,0 +1,24 @@
+{
+  "name": "Tiana's Bayou Adventure",
+  "park": "Magic Kingdom",
+  "land": "Frontierland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": "40 in (102 cm) or taller",
+    "thrill_level": "high",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 1",
+    "rider_swap": true,
+    "description": "A log-flume adventure through the Louisiana bayou with Princess Tiana and Louis the alligator, culminating in a steep plunge down a 50-foot drop.",
+    "indoor_outdoor": "outdoor/indoor hybrid",
+    "attraction_type": "flume ride"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" },
+    { "url": "https://allears.net/2026/05/03/what-is-rider-swap-at-disney-world-and-who-can-use-it/", "title": "What Is \"Rider Swap\" at Disney World and Who Can Use It?", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": [
+    "One of Magic Kingdom's newest and most in-demand attractions (opened 2024, replacing Splash Mountain); riders get wet — flag for guests sensitive to that."
+  ]
+}

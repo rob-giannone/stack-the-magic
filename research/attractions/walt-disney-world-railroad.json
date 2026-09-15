@@ -1,0 +1,21 @@
+{
+  "name": "Walt Disney World Railroad",
+  "park": "Magic Kingdom",
+  "land": "Main Street U.S.A.",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A vintage steam-powered train that circles the perimeter of Magic Kingdom, with boarding stations on Main Street, U.S.A., in Frontierland, and in Fantasyland.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "scenic transport"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "As of 2026-09-15, the official site lists three boarding-station entries (Main Street U.S.A., Frontierland, Fantasyland) but shows posted hours only for the Main Street and Fantasyland stations — the Frontierland station shows no operating hours. A separate fan-site search summary corroborates that the railroad is currently running only as a Main Street <-> Fantasyland shuttle with the Frontierland stop excluded, likely due to nearby Frontierland construction. Confirm current route/stations before recommending a full-loop ride."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Walt Disney's Enchanted Tiki Room",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "An audio-animatronic stage show starring a cast of singing tropical birds, flowers, and tiki gods, hosted by Jose, Michael, Pierre, and Fritz.",
+    "indoor_outdoor": "indoor",
+    "attraction_type": "theater show",
+    "operating_status": "Closed for refurbishment as of 2026-09-15"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Currently closed for refurbishment per the official site (checked 2026-09-15); no reopening date was listed. Confirm status before surfacing this attraction in live recommendations."
+  ]
+}
