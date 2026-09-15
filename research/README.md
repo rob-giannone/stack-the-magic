@@ -22,3 +22,7 @@ Also here, outside that schema:
 - [business-plan-notes.md](./business-plan-notes.md) — notes pulled from
   an earlier, tangential "Stack the Magic" business plan, including the
   Disney Inflation Index as a future dashboard-widget idea
+- [pricing/](./pricing/) — current, time-tracked pricing (tickets,
+  Lightning Lane, resorts, dining, transportation), gathered by the
+  separate `disney-pricing-agent` subagent since prices need their own
+  recheck discipline
