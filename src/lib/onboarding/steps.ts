@@ -1,6 +1,8 @@
 export const STEP_IDS = [
   "welcome",
+  "visit-history",
   "party",
+  "accessibility",
   "thrill",
   "characters",
   "dietary",

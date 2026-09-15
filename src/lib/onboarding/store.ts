@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import {
+  AccessibilityNeed,
   BudgetTier,
   CharacterPreference,
   DEFAULT_PROFILE,
@@ -10,6 +11,7 @@ import {
   Pace,
   ThrillLevel,
   TransportTolerance,
+  VisitHistory,
 } from "./types";
 import { TOTAL_STEPS } from "./steps";
 
@@ -20,10 +22,13 @@ interface OnboardingState {
   back: () => void;
   goTo: (step: number) => void;
   reset: () => void;
+  setVisitHistory: (history: VisitHistory) => void;
   setAdults: (adults: number) => void;
   addKid: () => void;
   removeKid: (id: string) => void;
   updateKidAge: (id: string, age: number) => void;
+  toggleAccessibilityNeed: (need: AccessibilityNeed) => void;
+  setAccessibilityNotes: (notes: string) => void;
   setThrillLevel: (level: ThrillLevel) => void;
   toggleCharacter: (preference: CharacterPreference) => void;
   toggleDietary: (restriction: DietaryRestriction) => void;
@@ -45,6 +50,9 @@ export const useOnboardingStore = create<OnboardingState>()(
       goTo: (step) =>
         set(() => ({ step: Math.max(0, Math.min(step, TOTAL_STEPS - 1)) })),
       reset: () => set(() => ({ step: 0, profile: DEFAULT_PROFILE })),
+
+      setVisitHistory: (visitHistory) =>
+        set((state) => ({ profile: { ...state.profile, visitHistory } })),
 
       setAdults: (adults) =>
         set((state) => ({ profile: { ...state.profile, adults } })),
@@ -72,6 +80,18 @@ export const useOnboardingStore = create<OnboardingState>()(
             ),
           },
         })),
+
+      toggleAccessibilityNeed: (need) =>
+        set((state) => {
+          const current = state.profile.accessibilityNeeds;
+          const accessibilityNeeds = current.includes(need)
+            ? current.filter((n) => n !== need)
+            : [...current, need];
+          return { profile: { ...state.profile, accessibilityNeeds } };
+        }),
+
+      setAccessibilityNotes: (accessibilityNotes) =>
+        set((state) => ({ profile: { ...state.profile, accessibilityNotes } })),
 
       setThrillLevel: (thrillLevel) =>
         set((state) => ({ profile: { ...state.profile, thrillLevel } })),
@@ -107,6 +127,14 @@ export const useOnboardingStore = create<OnboardingState>()(
     }),
     {
       name: "stm-onboarding-draft",
+      merge: (persistedState, currentState) => {
+        const persisted = (persistedState ?? {}) as Partial<OnboardingState>;
+        return {
+          ...currentState,
+          ...persisted,
+          profile: { ...currentState.profile, ...persisted.profile },
+        };
+      },
     }
   )
 );

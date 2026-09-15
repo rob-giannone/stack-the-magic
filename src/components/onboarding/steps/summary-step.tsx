@@ -32,6 +32,20 @@ const TRANSPORT_LABELS: Record<string, string> = {
   unsure: "Not sure yet",
 };
 
+const VISIT_HISTORY_LABELS: Record<string, string> = {
+  "first-time": "First time",
+  "a-few-times": "Been a few times",
+  veteran: "Veteran",
+};
+
+const ACCESSIBILITY_LABELS: Record<string, string> = {
+  "wheelchair-ecv": "Wheelchair / ECV",
+  "sensory-sensitivity": "Sensory sensitivities",
+  "service-animal": "Service animal",
+  "cognitive-developmental": "Cognitive / developmental",
+  other: "Other accommodation",
+};
+
 export function SummaryStep() {
   const { profile, reset } = useOnboardingStore();
 
@@ -41,12 +55,33 @@ export function SummaryStep() {
       subtitle="This is what we'll use to build your park plan. (Saving trips is coming soon.)"
     >
       <div className="space-y-4 rounded-lg border bg-card p-6">
+        <Row label="Visited before?">
+          {profile.visitHistory ? VISIT_HISTORY_LABELS[profile.visitHistory] : "Not set"}
+        </Row>
+        <Separator />
         <Row label="Party">
           {profile.adults} adult{profile.adults === 1 ? "" : "s"}
           {profile.kids.length > 0 &&
             `, ${profile.kids.length} kid${profile.kids.length === 1 ? "" : "s"} (ages ${profile.kids
               .map((kid) => kid.age)
               .join(", ")})`}
+        </Row>
+        <Separator />
+        <Row label="Accessibility">
+          {profile.accessibilityNeeds.length === 0 && !profile.accessibilityNotes ? (
+            "None specified"
+          ) : (
+            <div className="flex flex-wrap gap-2">
+              {profile.accessibilityNeeds.map((need) => (
+                <Badge key={need} variant="secondary">
+                  {ACCESSIBILITY_LABELS[need]}
+                </Badge>
+              ))}
+              {profile.accessibilityNotes && (
+                <Badge variant="outline">{profile.accessibilityNotes}</Badge>
+              )}
+            </div>
+          )}
         </Row>
         <Separator />
         <Row label="Thrill level">{profile.thrillLevel} / 5</Row>
