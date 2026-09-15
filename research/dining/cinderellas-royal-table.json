@@ -1,0 +1,35 @@
+{
+  "name": "Cinderella's Royal Table",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "table",
+    "price_tier": "$$$$",
+    "cuisine": "American",
+    "character_dining": true,
+    "characters_typically_present": ["Cinderella", "Disney Princesses (rotating, e.g. Ariel, Aurora, Jasmine, Snow White)"],
+    "reservation_difficulty": "very hard",
+    "typical_price_notes": "Prix-fixe; breakfast roughly $74/adult and $45/child, lunch/dinner roughly $88/adult and $52/child as of this research pass, plus tax and gratuity.",
+    "dietary_accommodation_notes": "Not confirmed in this research pass beyond general Disney table-service allergy accommodation practice — needs direct verification."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/cinderella-royal-table/",
+      "title": "Cinderella's Royal Table | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://www.undercovertourist.com/blog/cinderellas-royal-table-magic-kingdom/",
+      "title": "Frog Family Foodie Review - Cinderella's Royal Table at Magic Kingdom - Undercover Tourist",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Official Disney page returned truncated content during this research pass, so pricing/character details above lean on fan-site summaries — re-verify directly before relying on for booking guidance.",
+    "Specific dietary/allergy accommodation info was not found in this pass; flagged for follow-up.",
+    "Reservation difficulty ('very hard', described by multiple fan sources as one of the hardest ADRs at WDW, especially breakfast) is a qualitative synthesis, not a Disney-published metric."
+  ]
+}

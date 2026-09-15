@@ -1,0 +1,33 @@
+{
+  "name": "Pecos Bill Tall Tale Inn and Cafe",
+  "park": "Magic Kingdom",
+  "land": "Frontierland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "quick",
+    "price_tier": "$",
+    "cuisine": "Tex-Mex / American Southwest",
+    "character_dining": false,
+    "reservation_difficulty": "none (no reservations needed; mobile order available)",
+    "typical_price_notes": "Entrees $14.99 and under per adult as of this research pass; features a create-your-own bowl concept (choice of base, protein, and toppings).",
+    "dietary_accommodation_notes": "Plant-based option available (Grilled Masa Flatbread); general Disney quick-service allergy practices apply, not independently confirmed in this pass."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/pecos-bill-tall-tale-inn-and-cafe/",
+      "title": "Pecos Bill Tall Tale Inn & Cafe | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://www.wdwinfo.com/news-stories/brand-new-menu-at-pecos-bill-tall-tale-inn-cafe-in-magic-kingdom/",
+      "title": "Brand New Menu at Pecos Bill Tall Tale Inn & Cafe in Magic Kingdom - WDWInfo",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Official Disney page labels the cuisine as 'Mexican' while WDWInfo/other fan coverage describes the newer menu as 'Tex-Mex/Southwest' — flagged as a minor cuisine-label discrepancy worth a quick re-check.",
+    "Detailed allergy/dietary accommodation info beyond the plant-based item was not independently confirmed."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Jungle Navigation Co. Skipper Canteen",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "table",
+    "price_tier": "$$",
+    "cuisine": "Globally-inspired (African, Asian, and Latin American influences tied to the Jungle Cruise's fictional expedition routes)",
+    "character_dining": false,
+    "reservation_difficulty": "moderate",
+    "typical_price_notes": "A la carte lunch/dinner; most entrees roughly $15-$35 per adult as of this research pass.",
+    "dietary_accommodation_notes": "Kids' menu includes items marked for common allergens (gluten/wheat, egg, fish/shellfish, milk, peanut, sesame); general Disney allergy-friendly dining practices apply."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/en_CA/dining/magic-kingdom/jungle-navigation-skipper-canteen/",
+      "title": "Jungle Navigation Co. LTD Skipper Canteen - Disney World",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://allears.net/dining/menu/skipper-canteen/lunch-dinner/",
+      "title": "Jungle Navigation Co., Ltd. Skipper Canteen 2026 Lunch/Dinner Menu and Prices - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Official page URL found was the en_CA (Canadian) locale version of disneyworld.disney.go.com rather than the primary US page — content should match, but worth re-confirming on the standard US URL.",
+    "Reservation difficulty ('moderate') is this agent's qualitative judgment; fan sources describe it as popular and recommend booking ahead but do not rank it against other MK table-service venues with a precise metric."
+  ]
+}

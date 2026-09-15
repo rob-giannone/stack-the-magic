@@ -1,0 +1,38 @@
+{
+  "name": "Big Thunder Mountain Railroad",
+  "park": "Magic Kingdom",
+  "land": "Frontierland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": 38,
+    "thrill_level": "moderate",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Group 1 / Tier 1",
+    "rider_swap_available": true,
+    "description": "A runaway mine train coaster that races through caverns, canyons, and the Old West mining town of Tumbleweed with no inversions but frequent quick turns and dips."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/big-thunder-mountain-railroad/",
+      "title": "Big Thunder Mountain Railroad | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://allears.net/2026/04/10/big-thunder-mountain-railroad-is-opening-soon-in-magic-kingdom-here-are-5-rules-you-need-to-know/",
+      "title": "Big Thunder Mountain Railroad Is Opening SOON in Magic Kingdom - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    },
+    {
+      "url": "https://www.disneyfoodblog.com/2026/04/13/dfb-disney-world-magic-kingdom-lightning-lane-strategy/",
+      "title": "Disney World Magic Kingdom Lightning Lane Strategy for 2026 - the disney food blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Ride reopened May 3, 2026 after an extensive refurbishment (new track, trains, effects) and the height requirement reportedly dropped from 40in to 38in — confirm the 38in figure directly against Disney's current official page since this changed recently and some older fan content may still show 40in.",
+    "Multi Pass availability reportedly disappears very early in the day (fan reports of Lightning Lanes gone by ~9:07am) — directional only, not a hard data point."
+  ]
+}

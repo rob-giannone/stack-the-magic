@@ -1,0 +1,43 @@
+{
+  "name": "TRON Lightcycle / Run",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": 48,
+    "thrill_level": "high",
+    "lightning_lane_type": "Single Pass",
+    "rider_swap_available": true,
+    "description": "A high-speed launch coaster where riders straddle motorcycle-style Lightcycles and race through a neon-lit digital world inspired by the TRON films; it carries the tallest height requirement of any Magic Kingdom attraction."
+  },
+  "sources": [
+    {
+      "url": "https://www.undercovertourist.com/blog/tron-lightcycle-run-at-magic-kingdom/",
+      "title": "Everything We Know About TRON Lightcycle Run at Disney World - Undercover Tourist",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    },
+    {
+      "url": "https://plandisney.disney.go.com/question/maximum-height-limit-new-tron-ride-husband-named-tron-533920/",
+      "title": "planDisney - Is there a maximum height limit on the new Tron ride?",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://www.disneyfoodblog.com/2026/04/13/dfb-disney-world-magic-kingdom-lightning-lane-strategy/",
+      "title": "Disney World Magic Kingdom Lightning Lane Strategy for 2026 - the disney food blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    },
+    {
+      "url": "https://allears.net/2026/05/03/what-is-rider-swap-at-disney-world-and-who-can-use-it/",
+      "title": "What Is \"Rider Swap\" at Disney World and Who Can Use It? - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Disney's own attraction page (disneyworld.disney.go.com/attractions/magic-kingdom/tron-lightcycle-run/) returned truncated content during this research pass and could not be fetched directly to confirm the 48in height figure verbatim on Disney's own wording — figure is corroborated by planDisney (official Q&A forum) and multiple fan sites, but a direct re-check of the main attraction page is recommended.",
+    "Ride vehicle also offers a standing 'back row' option per some fan sources — worth confirming whether this affects the accessibility/attributes model."
+  ]
+}
