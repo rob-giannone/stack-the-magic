@@ -25,6 +25,13 @@ const DIETARY_LABELS: Record<string, string> = {
   other: "Other",
 };
 
+const TRANSPORT_LABELS: Record<string, string> = {
+  "bus-is-fine": "Buses are fine",
+  "minimize-bus": "Minimize bus time",
+  "avoid-bus": "Avoid buses",
+  unsure: "Not sure yet",
+};
+
 export function SummaryStep() {
   const { profile, reset } = useOnboardingStore();
 
@@ -76,6 +83,10 @@ export function SummaryStep() {
         <Row label="Budget">{profile.budgetTier ?? "Not set"}</Row>
         <Separator />
         <Row label="Pace">{profile.pace ?? "Not set"}</Row>
+        <Separator />
+        <Row label="Transportation">
+          {profile.transportTolerance ? TRANSPORT_LABELS[profile.transportTolerance] : "Not set"}
+        </Row>
       </div>
       <Button variant="outline" onClick={reset}>
         Start over

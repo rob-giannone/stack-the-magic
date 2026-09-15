@@ -6,6 +6,7 @@ export const STEP_IDS = [
   "dietary",
   "budget",
   "pace",
+  "transportation",
   "summary",
 ] as const;
 

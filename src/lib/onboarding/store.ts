@@ -9,6 +9,7 @@ import {
   OnboardingProfile,
   Pace,
   ThrillLevel,
+  TransportTolerance,
 } from "./types";
 import { TOTAL_STEPS } from "./steps";
 
@@ -29,6 +30,7 @@ interface OnboardingState {
   setDietaryNotes: (notes: string) => void;
   setBudgetTier: (tier: BudgetTier) => void;
   setPace: (pace: Pace) => void;
+  setTransportTolerance: (tolerance: TransportTolerance) => void;
 }
 
 export const useOnboardingStore = create<OnboardingState>()(
@@ -99,6 +101,9 @@ export const useOnboardingStore = create<OnboardingState>()(
         set((state) => ({ profile: { ...state.profile, budgetTier } })),
 
       setPace: (pace) => set((state) => ({ profile: { ...state.profile, pace } })),
+
+      setTransportTolerance: (transportTolerance) =>
+        set((state) => ({ profile: { ...state.profile, transportTolerance } })),
     }),
     {
       name: "stm-onboarding-draft",
