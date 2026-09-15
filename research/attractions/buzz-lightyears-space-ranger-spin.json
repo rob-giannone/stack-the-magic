@@ -1,0 +1,22 @@
+{
+  "name": "Buzz Lightyear's Space Ranger Spin",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap_available": false,
+    "description": "An interactive dark ride where guests spin their own vehicle and fire laser cannons at targets to rack up points alongside Buzz Lightyear."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": [
+    "Ride reportedly reopened April 8, 2026 with handheld blasters, new interactive targets, updated vehicles, and a new opening scene per a fan-site search summary — not independently confirmed against an official Disney source; verify refreshed ride details before publishing detailed copy.",
+    "Multi Pass Tier 2 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app."
+  ]
+}

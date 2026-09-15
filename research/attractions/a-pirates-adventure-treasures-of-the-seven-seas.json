@@ -1,0 +1,21 @@
+{
+  "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A free, app-guided interactive scavenger hunt in which small groups solve puzzles across several pirate-themed treasure missions scattered through Adventureland.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "interactive quest experience"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Observed operating hours on the official site were limited (12:00 PM-5:00 PM on 2026-09-15); confirm whether this reflects a standing reduced schedule."
+  ]
+}

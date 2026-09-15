@@ -1,0 +1,20 @@
+{
+  "name": "Casey Jr. Splash 'N' Soak Station",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A free splash pad in Storybook Circus themed to the Casey Jr. circus train, with fountains and water jets for kids to cool off in."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Sub-land noted on official site simply as 'Magic Kingdom Park'; Storybook Circus sub-area placement is fan-site/general-knowledge convention, not explicitly labeled by Disney's own listing.",
+    "Not a ride/queue-style attraction (unticketed water play area); confirm whether the recommendation engine should treat this differently from queue-based attractions."
+  ]
+}

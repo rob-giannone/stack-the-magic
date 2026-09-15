@@ -1,0 +1,19 @@
+{
+  "name": "The Hall of Presidents",
+  "park": "Magic Kingdom",
+  "land": "Liberty Square",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A patriotic theater show combining a film history of the U.S. presidency with an audio-animatronic assembly of every U.S. president."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Operating on a shorter daily schedule than most attractions (10:00 AM-4:00 PM observed on the official site on 2026-09-15); confirm current showtimes before relying on general park-hours assumptions."
+  ]
+}

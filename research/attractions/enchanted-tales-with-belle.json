@@ -1,0 +1,19 @@
+{
+  "name": "Enchanted Tales with Belle",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A walk-through, guest-participation storytelling experience inside Maurice's cottage that reenacts scenes from Beauty and the Beast and ends with a meeting with Belle."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Disney's own site tags this under 'Character Experiences' rather than a standard ride/show category; confirm whether the recommendation engine should treat it as an attraction or a character-meet experience."
+  ]
+}

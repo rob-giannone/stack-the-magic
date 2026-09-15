@@ -1,0 +1,17 @@
+{
+  "name": "Country Bear Musical Jamboree",
+  "park": "Magic Kingdom",
+  "land": "Frontierland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "An air-conditioned stage show featuring a cast of animatronic bears performing frontier-style musical numbers."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": []
+}

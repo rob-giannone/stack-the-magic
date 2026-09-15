@@ -1,0 +1,21 @@
+{
+  "name": "Swiss Family Treehouse",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A self-guided, stair-climbing walk-through tour of an elaborate treehouse inspired by the shipwrecked Robinson family from Swiss Family Robinson.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "walk-through"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Official site notes guests 'Must Be Ambulatory' (extensive stairs, no wheelchair/ECV access) — relevant for an accessibility-aware recommendation engine."
+  ]
+}

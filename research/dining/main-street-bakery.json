@@ -1,0 +1,20 @@
+{
+  "name": "Main Street Bakery (Starbucks)",
+  "park": "Magic Kingdom",
+  "land": "Main Street U.S.A.",
+  "category": "dining",
+  "attributes": {
+    "service_type": "quick",
+    "price_tier": "$",
+    "price_tier_note": "$14.99 and under per adult",
+    "cuisine": "American, Bakery (Starbucks-operated location: coffee, pastries, breakfast sandwiches)",
+    "character_dining": false,
+    "reservation_difficulty": "not applicable (quick service, no reservations); frequently has the longest lines in Magic Kingdom at park opening due to Starbucks demand, mobile order strongly recommended",
+    "dietary_accommodations": "Standard Disney quick-service allergy accommodation via posted Allergy Guide/Allergy Binder and mobile-order allergy filters; some items follow standard Starbucks allergen labeling."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://disneyworld.disney.go.com/guest-services/special-dietary-requests/", "title": "Special Dietary Requests | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": []
+}

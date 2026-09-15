@@ -1,0 +1,22 @@
+{
+  "name": "Tomorrowland Terrace Restaurant",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "quick",
+    "price_tier": "$",
+    "price_tier_note": "$14.99 and under per adult",
+    "cuisine": "American (burgers, plant-based options, salads)",
+    "character_dining": false,
+    "reservation_difficulty": "not applicable as standard quick service (no reservations), though the venue is also used as a paid dessert-party viewing location for nighttime spectaculars, which does require a reservation",
+    "dietary_accommodations": "Standard Disney quick-service allergy accommodation via posted Allergy Guide/Allergy Binder and mobile-order allergy filters."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://disneyworld.disney.go.com/guest-services/special-dietary-requests/", "title": "Special Dietary Requests | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Unlike most other Magic Kingdom quick-service locations, the official site's listing for this venue did not display an explicit 'Quick Service' label next to its name (only the cuisine/price tags appeared) — confirm current standalone service classification, since it also operates intermittently as a reservation-only dessert-party venue rather than open walk-up dining."
+  ]
+}

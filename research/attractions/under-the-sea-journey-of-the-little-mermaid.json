@@ -1,0 +1,20 @@
+{
+  "name": "Under the Sea ~ Journey of The Little Mermaid",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "Multi Pass",
+    "rider_swap": false,
+    "description": "A slow-moving omnimover dark ride that retells The Little Mermaid's story through scenes populated with animatronic and painted characters.",
+    "indoor_outdoor": "indoor",
+    "attraction_type": "dark ride"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
+  ],
+  "needs_verification": []
+}

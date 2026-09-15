@@ -1,0 +1,21 @@
+{
+  "name": "Tomorrowland Transit Authority PeopleMover",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A slow-moving, elevated people-mover that glides guests on a relaxing tour above and through Tomorrowland, including a pass through Space Mountain's show building.",
+    "indoor_outdoor": "outdoor/indoor hybrid",
+    "attraction_type": "scenic transport"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Official site notes guests 'Must Be Ambulatory' (no wheelchair/ECV access) — relevant for an accessibility-aware recommendation engine."
+  ]
+}

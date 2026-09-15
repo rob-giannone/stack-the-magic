@@ -1,0 +1,22 @@
+{
+  "name": "The Friar's Nook",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "quick",
+    "price_tier": "$",
+    "price_tier_note": "$14.99 and under per adult",
+    "cuisine": "American (loaded tater tots, mac and cheese)",
+    "character_dining": false,
+    "reservation_difficulty": "not applicable (quick service, no reservations); small walk-up window, mobile order available",
+    "dietary_accommodations": "Standard Disney quick-service allergy accommodation via posted Allergy Guide/Allergy Binder and mobile-order allergy filters."
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
+    { "url": "https://disneyworld.disney.go.com/guest-services/special-dietary-requests/", "title": "Special Dietary Requests | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Disney's own site tags this location 'Mobile Orders' rather than the explicit 'Quick Service Restaurant' label used for some peers; treated here as quick service per fan-site consensus (disneyparknerds), but confirm classification if the schema needs a strict official-only distinction."
+  ]
+}

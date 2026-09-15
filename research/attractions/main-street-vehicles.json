@@ -1,0 +1,21 @@
+{
+  "name": "Main Street Vehicles",
+  "park": "Magic Kingdom",
+  "land": "Main Street U.S.A.",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A fleet of vintage-style horseless carriages, fire engines, and jitneys that carry guests one-way down Main Street, U.S.A.",
+    "indoor_outdoor": "outdoor",
+    "attraction_type": "scenic transport"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Operates on a limited morning window only (9:00 AM-4:00 PM observed on the official site on 2026-09-15, and in practice often only the first hour or two of the day); confirm current operating pattern before use."
+  ]
+}

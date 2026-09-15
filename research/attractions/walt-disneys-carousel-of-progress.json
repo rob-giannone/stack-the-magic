@@ -1,0 +1,22 @@
+{
+  "name": "Walt Disney's Carousel of Progress",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "none",
+    "rider_swap": false,
+    "description": "A rotating-theater stage show that follows one family across four eras of the 20th century to celebrate the impact of technological progress, set to a Sherman Brothers score.",
+    "indoor_outdoor": "indoor",
+    "attraction_type": "rotating theater show",
+    "operating_status": "Closed for refurbishment as of 2026-09-15"
+  },
+  "sources": [
+    { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
+  ],
+  "needs_verification": [
+    "Currently closed for refurbishment per the official site (checked 2026-09-15); no reopening date was listed. Confirm status before surfacing this attraction in live recommendations."
+  ]
+}
