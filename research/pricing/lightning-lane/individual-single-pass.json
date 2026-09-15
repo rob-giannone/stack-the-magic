@@ -1,0 +1,31 @@
+{
+  "name": "Lightning Lane Individual / Single Pass",
+  "category": "lightning-lane",
+  "subcategory": "individual-single-pass",
+  "price_points": [
+    {
+      "label": "Individual Lightning Lane (Single Pass), typical per-attraction range across all parks",
+      "price_usd": null,
+      "price_low_usd": 12,
+      "price_high_usd": 24,
+      "unit": "per person, per ride, varies daily by specific attraction, park, and demand",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/individual-lightning-lanes-guide-prices-info/",
+      "source_title": "Lightning Lane Single Pass at Disney World: Prices, Sell Outs & Strategy - Disney Tourist Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "TRON Lightcycle / Run Individual Lightning Lane, typical range (example of a high-demand attraction)",
+      "price_usd": null,
+      "price_low_usd": 19,
+      "price_high_usd": 22,
+      "unit": "per person, per ride, Magic Kingdom; most dates run $20-$21",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/individual-lightning-lanes-guide-prices-info/",
+      "source_title": "Lightning Lane Single Pass at Disney World: Prices, Sell Outs & Strategy - Disney Tourist Blog",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": []
+}

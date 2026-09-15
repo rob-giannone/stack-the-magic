@@ -1,0 +1,77 @@
+{
+  "name": "Parking Fees",
+  "category": "transportation",
+  "subcategory": "parking",
+  "price_points": [
+    {
+      "label": "Theme park standard parking (car or motorcycle)",
+      "price_usd": 35.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per vehicle, per day, at any of the four theme parks",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/guest-services/parking/",
+      "source_title": "Parking - Walt Disney World Resort",
+      "confidence": "official"
+    },
+    {
+      "label": "Theme park preferred parking (car or motorcycle)",
+      "price_usd": null,
+      "price_low_usd": 50,
+      "price_high_usd": 60,
+      "unit": "per vehicle, per day, varies by season/date",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/guest-services/parking/",
+      "source_title": "Parking - Walt Disney World Resort",
+      "confidence": "official"
+    },
+    {
+      "label": "Disney Resort hotel self-parking (overnight, registered resort guest)",
+      "price_usd": 0,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "complimentary, per night, for guests staying at a Disney-owned resort hotel",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/guest-services/parking/",
+      "source_title": "Parking - Walt Disney World Resort",
+      "confidence": "official"
+    },
+    {
+      "label": "Disney Deluxe / Deluxe Villa Resort valet parking (also offered at Coronado Springs)",
+      "price_usd": 42.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per night, plus tax; valet only offered at Deluxe and Deluxe Villa Resorts, plus Coronado Springs",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/guest-services/parking/",
+      "source_title": "Parking - Walt Disney World Resort",
+      "confidence": "official"
+    },
+    {
+      "label": "Swan, Dolphin, and Swan Reserve (non-Disney-owned resorts) self-parking",
+      "price_usd": 40.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per vehicle, per day, plus tax, for registered guests",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world/wdw-planning/parking-at-the-walt-disney-world-resort/",
+      "source_title": "Parking at the Walt Disney World Resort - AllEars.Net",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Swan, Dolphin, and Swan Reserve (non-Disney-owned resorts) valet parking",
+      "price_usd": null,
+      "price_low_usd": 51,
+      "price_high_usd": 61,
+      "unit": "per vehicle, per day, plus tax, for registered guests",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world/wdw-planning/parking-at-the-walt-disney-world-resort/",
+      "source_title": "Parking at the Walt Disney World Resort - AllEars.Net",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "Swan/Dolphin/Swan Reserve parking figures were sourced via a fan site rather than fetched directly from those hotels' own official pages - worth confirming directly if the app plans to surface non-Disney-owned Disney Springs Resort Area hotels."
+  ]
+}

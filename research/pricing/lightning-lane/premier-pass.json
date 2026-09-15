@@ -1,0 +1,22 @@
+{
+  "name": "Lightning Lane Premier",
+  "category": "lightning-lane",
+  "subcategory": "premier-pass",
+  "price_points": [
+    {
+      "label": "Lightning Lane Premier, per-person price range across all four parks",
+      "price_usd": null,
+      "price_low_usd": 119,
+      "price_high_usd": 449,
+      "unit": "per person, per day, unlimited park-wide Lightning Lane access for one park, varies by park and date",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.wdw-magazine.com/lightning-lane-multi-pass-cost/",
+      "source_title": "Disney Lightning Lane Costs: Premier, Multi Pass, and Single Pass Pricing - WDW Magazine",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": [
+    "This price range was sourced from a single fan aggregator (WDW Magazine) and not cross-checked against a second source or the official Disney site in this session, since the official Lightning Lane page did not return full content on fetch."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Annual Pass Tiers",
+  "category": "ticket",
+  "subcategory": "annual-pass",
+  "price_points": [
+    {
+      "label": "Disney Incredi-Pass (no Florida residency or DVC requirement - available to all guests)",
+      "price_usd": 1629.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per pass, annual, ages 3+, plus tax",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/passes/",
+      "source_title": "Walt Disney World Annual Passes",
+      "confidence": "official"
+    },
+    {
+      "label": "Disney Sorcerer Pass (Florida resident or Disney Vacation Club member only)",
+      "price_usd": 1099.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per pass, annual, ages 3+, plus tax, restricted eligibility",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2025/10/08/disney-world-annual-passes-hit-with-price-increase/",
+      "source_title": "BREAKING: Disney World Annual Passes Hit With Price Increase - Disney Food Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Disney Pirate Pass (Florida resident only)",
+      "price_usd": 869.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per pass, annual, ages 3+, plus tax, restricted eligibility",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2025/10/08/disney-world-annual-passes-hit-with-price-increase/",
+      "source_title": "BREAKING: Disney World Annual Passes Hit With Price Increase - Disney Food Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Disney Pixie Dust Pass (Florida resident only)",
+      "price_usd": 489.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per pass, annual, ages 3+, plus tax, restricted eligibility",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2025/10/08/disney-world-annual-passes-hit-with-price-increase/",
+      "source_title": "BREAKING: Disney World Annual Passes Hit With Price Increase - Disney Food Blog",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "Sorcerer, Pirate, and Pixie Dust Pass prices were confirmed only via fan-site reporting of an October 2025 price increase, not pulled directly from disneyworld.disney.go.com/passes/ in this session - that official page only surfaced full pricing for the Incredi-Pass (the other tiers are gated behind Florida residency / DVC verification in Disney's purchase flow, which likely blocked a direct read). Recommend re-verifying the restricted-tier prices directly with a Florida zip code if the app needs to guarantee precision for FL-resident users."
+  ]
+}

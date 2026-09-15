@@ -1,0 +1,33 @@
+{
+  "name": "Park Hopper Add-On",
+  "category": "ticket",
+  "subcategory": "park-hopper",
+  "price_points": [
+    {
+      "label": "Park Hopper add-on, applied to 2-3 day base tickets",
+      "price_usd": null,
+      "price_low_usd": 79.88,
+      "price_high_usd": 101.18,
+      "unit": "per ticket, flat add-on regardless of number of days within this tier, including tax, varies by season",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Park Hopper add-on, applied to 4-day-or-longer base tickets",
+      "price_usd": null,
+      "price_low_usd": 90.53,
+      "price_high_usd": 111.83,
+      "unit": "per ticket, flat add-on regardless of number of days within this tier, including tax, varies by season",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "The official disneyworld.disney.go.com ticket page describes the Park Hopper option but did not surface a standalone add-on dollar figure in this check (Park Hopper pricing is applied inline during checkout with a specific ticket/date combination selected). Figures here are sourced from MouseSavers' aggregation of Disney's published add-on pricing; confirm against the official ticket calculator with specific dates selected."
+  ]
+}

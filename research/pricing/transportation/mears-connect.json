@@ -1,0 +1,66 @@
+{
+  "name": "Mears Connect Airport Shuttle (MCO to Disney Resort)",
+  "category": "transportation",
+  "subcategory": "airport-shuttle",
+  "price_points": [
+    {
+      "label": "Standard Service, one-way, adult (age 10+)",
+      "price_usd": 16.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per person, one-way, MCO airport to Disney resort hotel, age 10+, before fuel surcharge",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mearsconnect.com/",
+      "source_title": "Orlando Airport Transportation to and from Disney Hotels - Mears Connect (official site)",
+      "confidence": "official"
+    },
+    {
+      "label": "Standard Service, one-way, child (ages 3-9)",
+      "price_usd": 13.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per person, one-way, MCO airport to Disney resort hotel, ages 3-9, before fuel surcharge",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mearsconnect.com/",
+      "source_title": "Orlando Airport Transportation to and from Disney Hotels - Mears Connect (official site)",
+      "confidence": "official"
+    },
+    {
+      "label": "Standard Service, one-way, child under 3",
+      "price_usd": 0,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "free, per child, under age 3",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mearsconnect.com/",
+      "source_title": "Orlando Airport Transportation to and from Disney Hotels - Mears Connect (official site)",
+      "confidence": "official"
+    },
+    {
+      "label": "Express Service, one-way, adult (faster, fewer stops)",
+      "price_usd": 42.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per person, one-way, MCO airport to Disney resort hotel, age 10+",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/reservations-pricing-mears-connect-airport-transportation-magical-express-replacement/",
+      "source_title": "Guide to Mears Connect Airport Shuttle to Disney World - Disney Tourist Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Express Service, one-way, child (ages 3-9)",
+      "price_usd": 32.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per person, one-way, MCO airport to Disney resort hotel, ages 3-9",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/reservations-pricing-mears-connect-airport-transportation-magical-express-replacement/",
+      "source_title": "Guide to Mears Connect Airport Shuttle to Disney World - Disney Tourist Blog",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "Express Service pricing was not directly confirmed on mearsconnect.com in this session (the fetched page only surfaced Standard Service rates); it is sourced from Disney Tourist Blog. Also note: mearsconnect.com states 'A 3% Fuel Surcharge Will Be Added to All Reservations Until Further Notice' as of this check - the Standard Service fares above ($16/$13) are before that surcharge is applied at booking."
+  ]
+}
