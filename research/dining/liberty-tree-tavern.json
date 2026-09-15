@@ -6,12 +6,11 @@
   "attributes": {
     "service_type": "table",
     "price_tier": "$$$",
-    "price_tier_note": "$35-$59.99 per adult; all-you-care-to-enjoy family-style meal, adult ~$45, child (3-9) ~$24",
-    "cuisine": "American (colonial-tavern, Thanksgiving-style family-service fare: roasted turkey, pork roast, mashed potatoes, stuffing, mac and cheese)",
+    "cuisine": "American (colonial-tavern, Thanksgiving-style family-service fare)",
     "character_dining": false,
-    "character_dining_note": "Formerly offered character dining pre-2020; discontinued and has not returned as of 2026.",
     "reservation_difficulty": "moderate; a comparatively underrated Magic Kingdom table-service pick with generally easier availability than the park's headliner restaurants",
-    "dietary_accommodations": "Standard Disney allergy-friendly accommodation process for table-service dining."
+    "typical_price_notes": "$35-$59.99 per adult; all-you-care-to-enjoy family-style meal (roasted turkey, carved pork roast, mashed potatoes, stuffing, mac and cheese), roughly $45/adult and $24/child (ages 3-9) as of this research pass.",
+    "dietary_accommodation_notes": "Standard Disney allergy-friendly accommodation process for table-service dining."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
@@ -19,6 +18,7 @@
     { "url": "https://disneyworld.disney.go.com/guest-services/special-dietary-requests/", "title": "Special Dietary Requests | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
   ],
   "needs_verification": [
+    "Formerly offered character dining pre-2020; discontinued and had not returned as of this research pass — confirm still the case.",
     "A fan-site search summary referenced a possible upcoming menu/format change ('game-changer') without full detail; confirm current menu structure directly before publishing specifics."
   ]
 }

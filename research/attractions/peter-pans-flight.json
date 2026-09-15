@@ -4,20 +4,19 @@
   "land": "Fantasyland",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "mild",
     "lightning_lane_type": "Multi Pass",
     "lightning_lane_tier": "Tier 1",
-    "rider_swap": false,
-    "description": "A beloved suspended dark ride that sails guests in a pirate galleon over a miniature nighttime London and on to Never Land.",
-    "indoor_outdoor": "indoor",
-    "attraction_type": "dark ride"
+    "rider_swap_available": false,
+    "description": "A beloved suspended dark ride that sails guests in a pirate galleon over a miniature nighttime London and on to Never Land."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
     { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
   ],
   "needs_verification": [
-    "One of the most consistently high-demand rides in Magic Kingdom despite no height requirement; typical stand-by waits can rival thrill rides — worth flagging for a wait-time-aware recommendation engine."
+    "One of the most consistently high-demand rides in Magic Kingdom despite no height requirement; typical stand-by waits can rival thrill rides — worth flagging for a wait-time-aware recommendation engine.",
+    "Multi Pass Tier 1 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app."
   ]
 }

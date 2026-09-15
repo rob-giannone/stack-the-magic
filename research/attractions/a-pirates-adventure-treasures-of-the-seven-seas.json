@@ -4,18 +4,17 @@
   "land": "Adventureland",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "kiddie",
-    "lightning_lane_type": "none",
-    "rider_swap": false,
-    "description": "A free, app-guided interactive scavenger hunt in which small groups solve puzzles across several pirate-themed treasure missions scattered through Adventureland.",
-    "indoor_outdoor": "outdoor",
-    "attraction_type": "interactive quest experience"
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A free, app-guided interactive scavenger hunt in which small groups solve puzzles across several pirate-themed treasure missions scattered through Adventureland."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
   ],
   "needs_verification": [
-    "Observed operating hours on the official site were limited (12:00 PM-5:00 PM on 2026-09-15); confirm whether this reflects a standing reduced schedule."
+    "Observed operating hours on the official site were limited (12:00 PM-5:00 PM on 2026-09-15); confirm whether this reflects a standing reduced schedule.",
+    "Not a queue-based ride (self-guided quest experience); confirm whether the recommendation engine should treat this differently from standard attractions."
   ]
 }

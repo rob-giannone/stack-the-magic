@@ -6,11 +6,11 @@
   "attributes": {
     "service_type": "quick",
     "price_tier": "$",
-    "price_tier_note": "$14.99 and under per adult",
     "cuisine": "American (burgers, rotisserie chicken, plant-based options)",
     "character_dining": false,
-    "reservation_difficulty": "not applicable (quick service, no reservations); one of the largest-capacity quick-service locations in Magic Kingdom, mobile order available",
-    "dietary_accommodations": "Standard Disney quick-service allergy accommodation via posted Allergy Guide/Allergy Binder and mobile-order allergy filters."
+    "reservation_difficulty": "none (no reservations needed; mobile order available)",
+    "typical_price_notes": "Entrees $14.99 and under per adult as of this research pass; one of the largest-capacity quick-service locations in Magic Kingdom.",
+    "dietary_accommodation_notes": "General Disney quick-service allergy practices apply (posted Allergy Guide/Allergy Binder and mobile-order allergy filters); not independently confirmed in this pass."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },

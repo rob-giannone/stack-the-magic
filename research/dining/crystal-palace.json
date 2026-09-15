@@ -6,17 +6,19 @@
   "attributes": {
     "service_type": "table",
     "price_tier": "$$$$",
-    "price_tier_note": "over $60 per adult",
     "cuisine": "American (buffet)",
     "character_dining": true,
-    "characters": "Winnie the Pooh, Tigger, Piglet, and Eeyore",
+    "characters_typically_present": ["Winnie the Pooh", "Tigger", "Piglet", "Eeyore"],
     "reservation_difficulty": "moderate-to-hard; prime breakfast slots (especially early, pre-park-opening times) book up quickly at the 60-day advance-dining window",
-    "dietary_accommodations": "Standard Disney allergy-friendly accommodation process; buffet stations can be reviewed with a chef on request for common allergens."
+    "typical_price_notes": "Over $60 per adult; all-you-care-to-enjoy buffet, served for breakfast, lunch, and dinner.",
+    "dietary_accommodation_notes": "Standard Disney allergy-friendly accommodation process; buffet stations can be reviewed with a chef on request for common allergens."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/", "title": "Dining | Magic Kingdom Park | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
     { "url": "https://supapark.com/blog/crystal-palace-reservation-drop-watch", "title": "Crystal Palace Reservations Are a Timing Game", "date_verified": "2026-09-15", "confidence": "fan-site" },
     { "url": "https://disneyworld.disney.go.com/guest-services/special-dietary-requests/", "title": "Special Dietary Requests | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
   ],
-  "needs_verification": []
+  "needs_verification": [
+    "Reservation difficulty is this agent's qualitative synthesis of fan-site reporting, not a Disney-published metric."
+  ]
 }

@@ -4,13 +4,11 @@
   "land": "Main Street U.S.A.",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "kiddie",
-    "lightning_lane_type": "none",
-    "rider_swap": false,
-    "description": "A fleet of vintage-style horseless carriages, fire engines, and jitneys that carry guests one-way down Main Street, U.S.A.",
-    "indoor_outdoor": "outdoor",
-    "attraction_type": "scenic transport"
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A fleet of vintage-style horseless carriages, fire engines, and jitneys that carry guests one-way down Main Street, U.S.A."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
