@@ -20,6 +20,8 @@ export type BudgetTier = "value" | "moderate" | "deluxe" | "no-limit";
 
 export type Pace = "chill" | "balanced" | "maximizer";
 
+export type TransportTolerance = "bus-is-fine" | "minimize-bus" | "avoid-bus" | "unsure";
+
 export interface Kid {
   id: string;
   age: number;
@@ -34,6 +36,7 @@ export interface OnboardingProfile {
   dietaryNotes: string;
   budgetTier: BudgetTier | null;
   pace: Pace | null;
+  transportTolerance: TransportTolerance | null;
 }
 
 export const DEFAULT_PROFILE: OnboardingProfile = {
@@ -45,4 +48,5 @@ export const DEFAULT_PROFILE: OnboardingProfile = {
   dietaryNotes: "",
   budgetTier: null,
   pace: null,
+  transportTolerance: null,
 };

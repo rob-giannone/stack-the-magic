@@ -11,6 +11,7 @@ import { CharactersStep } from "./steps/characters-step";
 import { DietaryStep } from "./steps/dietary-step";
 import { BudgetStep } from "./steps/budget-step";
 import { PaceStep } from "./steps/pace-step";
+import { TransportationStep } from "./steps/transportation-step";
 import { SummaryStep } from "./steps/summary-step";
 
 const STEP_COMPONENTS = [
@@ -21,11 +22,13 @@ const STEP_COMPONENTS = [
   DietaryStep,
   BudgetStep,
   PaceStep,
+  TransportationStep,
   SummaryStep,
 ];
 
 const BUDGET_STEP_INDEX = 5;
 const PACE_STEP_INDEX = 6;
+const TRANSPORTATION_STEP_INDEX = 7;
 
 export function OnboardingWizard() {
   const { step, next, back, profile } = useOnboardingStore();
@@ -35,7 +38,8 @@ export function OnboardingWizard() {
 
   const canContinue =
     (step !== BUDGET_STEP_INDEX || profile.budgetTier !== null) &&
-    (step !== PACE_STEP_INDEX || profile.pace !== null);
+    (step !== PACE_STEP_INDEX || profile.pace !== null) &&
+    (step !== TRANSPORTATION_STEP_INDEX || profile.transportTolerance !== null);
 
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-col gap-8 px-4 py-12">
