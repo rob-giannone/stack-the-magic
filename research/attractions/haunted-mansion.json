@@ -1,0 +1,32 @@
+{
+  "name": "Haunted Mansion",
+  "park": "Magic Kingdom",
+  "land": "Liberty Square",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap_available": false,
+    "description": "A slow-moving Doom Buggy tour through a spooky, comically macabre haunted estate populated by 999 ghostly residents; eerie in tone but not gory or high-thrill."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/haunted-mansion/",
+      "title": "Haunted Mansion | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://wdwprepschool.com/haunted-mansion/",
+      "title": "Complete Guide to Haunted Mansion - WDW Prep School",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Multi Pass Tier 2 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app.",
+    "Thrill level ('mild') is this agent's categorical judgment based on darkness/spooky theming rather than physical intensity; some younger or scare-sensitive riders may find it more intense than the label suggests — flagged for the recommendation engine to weigh alongside party composition."
+  ]
+}

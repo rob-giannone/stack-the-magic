@@ -1,0 +1,33 @@
+{
+  "name": "Be Our Guest Restaurant",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "dining",
+  "attributes": {
+    "service_type": "table",
+    "price_tier": "$$$",
+    "cuisine": "French-inspired",
+    "character_dining": false,
+    "reservation_difficulty": "hard",
+    "typical_price_notes": "Prix-fixe, 3-course lunch/dinner menu; roughly $72/adult and $43/child (ages 3-9) as of this research pass.",
+    "dietary_accommodation_notes": "Plant-based menu items available (made without animal meat, dairy, eggs, or honey); guests with allergies can ask to speak with a Special Diets Trained Cast Member on arrival."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/be-our-guest-restaurant/",
+      "title": "Be Our Guest Restaurant | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://allears.net/dining/menu/be-our-guest/dinner/",
+      "title": "Be Our Guest 2026 Lunch and Dinner Menu and Prices - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Official Disney page returned truncated content during this research pass, so pricing and dietary details above are sourced from AllEars rather than confirmed verbatim on disneyworld.disney.go.com — re-check pricing before using in a booking-adjacent context, as it changes periodically.",
+    "Reservation difficulty ('hard') is this agent's qualitative judgment based on general popularity reporting, not a Disney-published metric."
+  ]
+}

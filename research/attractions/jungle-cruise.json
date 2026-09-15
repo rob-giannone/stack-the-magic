@@ -1,0 +1,32 @@
+{
+  "name": "Jungle Cruise",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 1",
+    "rider_swap_available": false,
+    "description": "A guided boat tour past Audio-Animatronic wildlife along the rivers of Asia, Africa, and South America, narrated by a comedically punning skipper."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/jungle-cruise/",
+      "title": "Jungle Cruise | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://www.disneyfoodblog.com/2026/04/13/dfb-disney-world-magic-kingdom-lightning-lane-strategy/",
+      "title": "Disney World Magic Kingdom Lightning Lane Strategy for 2026 - the disney food blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "No height requirement means no rider swap program is offered/needed; confirm this assumption holds if Disney's rider swap policy language changes.",
+    "Typical wait times (30-90 min) cited by fan sites are illustrative, not live data."
+  ]
+}

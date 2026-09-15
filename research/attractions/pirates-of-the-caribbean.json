@@ -1,0 +1,32 @@
+{
+  "name": "Pirates of the Caribbean",
+  "park": "Magic Kingdom",
+  "land": "Adventureland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "mild",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap_available": false,
+    "description": "A boat-flume dark ride through 17th-century Caribbean scenes of pirates, cannon fire, and plunder, featuring the classic theme song and appearances by Captain Jack Sparrow."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/pirates-of-the-caribbean/",
+      "title": "Pirates of the Caribbean | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://mousequeue.com/attractions/pirates-of-the-caribbean",
+      "title": "Pirates of the Caribbean Wait Times & Lightning Lane Tips - MouseQueue",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Multi Pass Tier 2 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app.",
+    "Small drop/dark boat ride with mild gunfire and skeleton imagery; no official 'scary' rating exists, so the 'mild' thrill label is this agent's categorical judgment, not a Disney-published rating."
+  ]
+}

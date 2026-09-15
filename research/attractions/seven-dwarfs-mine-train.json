@@ -1,0 +1,37 @@
+{
+  "name": "Seven Dwarfs Mine Train",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": 38,
+    "thrill_level": "moderate",
+    "lightning_lane_type": "Single Pass",
+    "rider_swap_available": true,
+    "description": "A family-friendly swaying mine-car coaster inspired by Snow White and the Seven Dwarfs, climbing through a diamond mine with animated dwarf figures before a series of gentle drops and turns."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/seven-dwarfs-mine-train/",
+      "title": "Seven Dwarfs Mine Train | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://www.disneyfoodblog.com/2026/04/13/dfb-disney-world-magic-kingdom-lightning-lane-strategy/",
+      "title": "Disney World Magic Kingdom Lightning Lane Strategy for 2026 - the disney food blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    },
+    {
+      "url": "https://touringplans.com/blog/five-things-to-know-about-seven-dwarfs-mine-train/",
+      "title": "Five Things to Know About Seven Dwarfs Mine Train - TouringPlans.com Blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Lightning Lane skips the first two interactive queue scenes per TouringPlans — worth double-checking whether that's still accurate if the queue changes.",
+    "Standby wait times cited (70+ minutes) are illustrative/typical, not live data."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "it's a small world",
+  "park": "Magic Kingdom",
+  "land": "Fantasyland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": null,
+    "thrill_level": "kiddie",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap_available": false,
+    "description": "A gentle boat cruise past Audio-Animatronic children from around the world singing the titular song in a celebration of global unity; no restraints and suitable for infants."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/its-a-small-world/",
+      "title": "it's a small world | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://wdwprepschool.com/its-a-small-world/",
+      "title": "Complete Guide to it's a small world - WDW Prep School",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Multi Pass Tier 2 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app."
+  ]
+}

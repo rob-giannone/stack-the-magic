@@ -1,0 +1,33 @@
+{
+  "name": "Casey's Corner",
+  "park": "Magic Kingdom",
+  "land": "Main Street U.S.A.",
+  "category": "dining",
+  "attributes": {
+    "service_type": "quick",
+    "price_tier": "$",
+    "cuisine": "American (baseball-themed hot dog stand)",
+    "character_dining": false,
+    "reservation_difficulty": "none (no reservations needed; mobile order available)",
+    "typical_price_notes": "Entrees $14.99 and under per adult as of this research pass; menu centers on hot dogs, mini corn dogs, and fries, including a plant-based Chicago-style dog.",
+    "dietary_accommodation_notes": "Plant-based hot dog option available; general Disney quick-service allergy practices apply, not independently confirmed in this pass."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/dining/magic-kingdom/caseys-corner/",
+      "title": "Casey's Corner | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://allears.net/dining/menu/caseys-corner/lunch-dinner/",
+      "title": "Casey's Corner 2026 Lunch/Dinner Menu and Prices - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Detailed allergy/dietary accommodation info beyond the plant-based item was not independently confirmed.",
+    "Operating hours (10:30am-6:00pm cited by one fan source) fluctuate seasonally and were not cross-checked against a live Disney hours calendar — omitted from attributes for that reason."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Space Mountain",
+  "park": "Magic Kingdom",
+  "land": "Tomorrowland",
+  "category": "attraction",
+  "attributes": {
+    "height_requirement_inches": 44,
+    "thrill_level": "high",
+    "lightning_lane_type": "Multi Pass",
+    "lightning_lane_tier": "Group 1 / Tier 1",
+    "rider_swap_available": true,
+    "description": "An indoor roller coaster that hurtles riders through the darkness of outer space, with shooting stars, comets, and a swirling wormhole set to a futuristic score."
+  },
+  "sources": [
+    {
+      "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/space-mountain/",
+      "title": "Space Mountain | Walt Disney World Resort",
+      "date_verified": "2026-09-15",
+      "confidence": "official"
+    },
+    {
+      "url": "https://allears.net/2026/05/03/what-is-rider-swap-at-disney-world-and-who-can-use-it/",
+      "title": "What Is \"Rider Swap\" at Disney World and Who Can Use It? - AllEars.Net",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    },
+    {
+      "url": "https://www.disneyfoodblog.com/2026/04/13/dfb-disney-world-magic-kingdom-lightning-lane-strategy/",
+      "title": "Disney World Magic Kingdom Lightning Lane Strategy for 2026 - the disney food blog",
+      "date_verified": "2026-09-15",
+      "confidence": "fan-site"
+    }
+  ],
+  "needs_verification": [
+    "Confirm Space Mountain's exact Multi Pass tier/group label directly on Disney's official Lightning Lane page — current classification pulled from fan-site summaries, not Disney's own tier listing.",
+    "One earlier search result (AllEars-adjacent summary) described Space Mountain as an Individual/Single Pass attraction, which conflicts with the Multi Pass classification used here. Cross-check in the My Disney Experience app before launch."
+  ]
+}
