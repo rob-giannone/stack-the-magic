@@ -5,7 +5,9 @@ import { Progress } from "@/components/ui/progress";
 import { useOnboardingStore } from "@/lib/onboarding/store";
 import { TOTAL_STEPS } from "@/lib/onboarding/steps";
 import { WelcomeStep } from "./steps/welcome-step";
+import { VisitHistoryStep } from "./steps/visit-history-step";
 import { PartyStep } from "./steps/party-step";
+import { AccessibilityStep } from "./steps/accessibility-step";
 import { ThrillStep } from "./steps/thrill-step";
 import { CharactersStep } from "./steps/characters-step";
 import { DietaryStep } from "./steps/dietary-step";
@@ -16,7 +18,9 @@ import { SummaryStep } from "./steps/summary-step";
 
 const STEP_COMPONENTS = [
   WelcomeStep,
+  VisitHistoryStep,
   PartyStep,
+  AccessibilityStep,
   ThrillStep,
   CharactersStep,
   DietaryStep,
@@ -26,9 +30,10 @@ const STEP_COMPONENTS = [
   SummaryStep,
 ];
 
-const BUDGET_STEP_INDEX = 5;
-const PACE_STEP_INDEX = 6;
-const TRANSPORTATION_STEP_INDEX = 7;
+const VISIT_HISTORY_STEP_INDEX = 1;
+const BUDGET_STEP_INDEX = 7;
+const PACE_STEP_INDEX = 8;
+const TRANSPORTATION_STEP_INDEX = 9;
 
 export function OnboardingWizard() {
   const { step, next, back, profile } = useOnboardingStore();
@@ -37,6 +42,7 @@ export function OnboardingWizard() {
   const isLast = step === TOTAL_STEPS - 1;
 
   const canContinue =
+    (step !== VISIT_HISTORY_STEP_INDEX || profile.visitHistory !== null) &&
     (step !== BUDGET_STEP_INDEX || profile.budgetTier !== null) &&
     (step !== PACE_STEP_INDEX || profile.pace !== null) &&
     (step !== TRANSPORTATION_STEP_INDEX || profile.transportTolerance !== null);
