@@ -1,0 +1,99 @@
+{
+  "name": "Disney's Pop Century Resort",
+  "category": "resort",
+  "subcategory": "value-resort-standard-room",
+  "price_points": [
+    {
+      "label": "Value Season",
+      "price_usd": null,
+      "price_low_usd": 212,
+      "price_high_usd": 279,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; lowest-demand dates (e.g. mid-Jan-early Feb, mid-Aug-early Sep)",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Spring Season",
+      "price_usd": null,
+      "price_low_usd": 250,
+      "price_high_usd": 317,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; Feb and April spring windows",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Regular Season",
+      "price_usd": null,
+      "price_low_usd": 241,
+      "price_high_usd": 341,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; Feb-Mar and late-Apr-May windows",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Summer Season",
+      "price_usd": null,
+      "price_low_usd": 233,
+      "price_high_usd": 315,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; late-May through mid-Aug",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Fall Season",
+      "price_usd": null,
+      "price_low_usd": 241,
+      "price_high_usd": 304,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; Sep through mid-Nov",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Winter Season (Thanksgiving through pre-Christmas, excluding Christmas week)",
+      "price_usd": null,
+      "price_low_usd": 262,
+      "price_high_usd": 379,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; late-Nov through Dec 23",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Holiday Season (Christmas week)",
+      "price_usd": 396,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; Dec 24-31 only",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Peak single-day / event-window pricing (e.g. Presidents' Day, Easter, Labor Day, Halloween, Thanksgiving)",
+      "price_usd": null,
+      "price_low_usd": 292,
+      "price_high_usd": 350,
+      "unit": "per night, standard room, double-occupancy rack rate, includes 12.5% tax; short surcharge windows around specific holidays/events",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/",
+      "source_title": "2026 Pop Century Room Rates & Season Dates - MouseSavers.com",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": [
+    "Rate chart sourced from MouseSavers' aggregation of Disney's published 2026 Pop Century season calendar. Disney's official resort rates page (disneyworld.disney.go.com) and TouringPlans' rate-chart page (touringplans.com, returned HTTP 403 on fetch) were not directly retrievable in this session. Season tier names/date boundaries here are consolidated from a more granular published calendar for readability - exact date boundaries and additional room categories (Preferred, Pool View) should be re-confirmed against Disney's official rates page before quoting to a user. No live nightly rate for a specific date was queried or stored, per hard rule."
+  ]
+}

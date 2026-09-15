@@ -1,0 +1,44 @@
+{
+  "name": "4-Day Ticket",
+  "category": "ticket",
+  "subcategory": "multi-day-ticket",
+  "price_points": [
+    {
+      "label": "4-Day, 1-Park-Per-Day Ticket, full published range across date-based tiers (adult, age 10+)",
+      "price_usd": null,
+      "price_low_usd": 522.77,
+      "price_high_usd": 773.12,
+      "unit": "per ticket, 4 days total, age 10+, one park per day (no hopping), including sales tax",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "4-Day, 1-Park-Per-Day Ticket, full published range across date-based tiers (child, ages 3-9)",
+      "price_usd": null,
+      "price_low_usd": 504.00,
+      "price_high_usd": 753.73,
+      "unit": "per ticket, 4 days total, ages 3-9, one park per day (no hopping), including sales tax",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "4-Park Magic Ticket (limited-time offer: 4 days, park hopping to all 4 parks included each day)",
+      "price_usd": 399.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per ticket, 4 days, valid only for select visit dates May 26 - Sep 26, 2026, includes park hopping",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/tickets/",
+      "source_title": "Walt Disney World Ticket Pricing",
+      "confidence": "official"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "The official ticket page did not itemize a standalone 4-day base ticket price in this check (it surfaced the limited-time '4-Park Magic Ticket' promo instead); the $522.77-$773.12 base range is from MouseSavers' aggregation. Confirm against the official ticket calculator for the exact current range, and note the 4-Park Magic Ticket promo is time-limited to summer 2026 dates and will not apply after Sep 26, 2026."
+  ]
+}

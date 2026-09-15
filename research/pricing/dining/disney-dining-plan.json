@@ -1,0 +1,66 @@
+{
+  "name": "Disney Dining Plan",
+  "category": "dining",
+  "subcategory": "dining-plan",
+  "price_points": [
+    {
+      "label": "Disney Dining Plan (standard / table-service plan) - currently offered for 2026 stays",
+      "price_usd": 98.59,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per adult (age 10+), per night of stay",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/disney-dining-plan-costs-info-tips/",
+      "source_title": "2026-2027 Disney Dining Plan Review, Pricing & Info - Disney Tourist Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Disney Quick-Service Dining Plan - currently offered for 2026 stays",
+      "price_usd": 60.47,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per adult (age 10+), per night of stay",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneytouristblog.com/disney-dining-plan-costs-info-tips/",
+      "source_title": "2026-2027 Disney Dining Plan Review, Pricing & Info - Disney Tourist Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Quick-Service Dining Plan, 2027 pricing already announced (for stays booked into 2027)",
+      "price_usd": 62.78,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per adult (age 10+), per night of stay, applies to 2027 bookings",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2026/04/16/disney-world-announces-major-dining-plan-change/",
+      "source_title": "Disney World Announces MAJOR Dining Plan Change - Disney Food Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Table-Service Dining Plan, 2027 pricing already announced (for stays booked into 2027)",
+      "price_usd": 99.87,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per adult (age 10+), per night of stay, applies to 2027 bookings",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2026/04/16/disney-world-announces-major-dining-plan-change/",
+      "source_title": "Disney World Announces MAJOR Dining Plan Change - Disney Food Blog",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Deluxe Table-Service Dining Plan (new tier, 2 table-service credits/night) - 2027 pricing already announced",
+      "price_usd": 163.01,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per adult (age 10+), per night of stay, applies to 2027 bookings, includes two table-service meals per night instead of one",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.disneyfoodblog.com/2026/04/16/disney-world-announces-major-dining-plan-change/",
+      "source_title": "Disney World Announces MAJOR Dining Plan Change - Disney Food Blog",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": [
+    "Exact per-night meal-credit structure (number of table-service/quick-service credits and snacks included) for the current 2026 plans was not independently confirmed against disneyworld.disney.go.com/dining/plans/ - that official page returned truncated content on fetch in this session. Children's pricing (ages 3-9) for the current 2026 plans was not captured here and should be added on the next pass."
+  ]
+}

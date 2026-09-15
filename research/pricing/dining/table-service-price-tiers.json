@@ -1,0 +1,55 @@
+{
+  "name": "Table-Service Dining Price Tiers",
+  "category": "dining",
+  "subcategory": "table-service-price-tiers",
+  "price_points": [
+    {
+      "label": "$ tier (quick service, lounges, pool bars)",
+      "price_usd": null,
+      "price_low_usd": null,
+      "price_high_usd": 14.99,
+      "unit": "per person, per entree/meal; Disney's lowest published dining price symbol, up to $14.99",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world-dining/",
+      "source_title": "Walt Disney World Dining - AllEars.Net",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "$$ tier (average table-service restaurants, some upscale bars/lounges)",
+      "price_usd": null,
+      "price_low_usd": 15,
+      "price_high_usd": 34.99,
+      "unit": "per person, per entree/meal",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world-dining/",
+      "source_title": "Walt Disney World Dining - AllEars.Net",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "$$$ tier (nicer table-service, character dining, buffets)",
+      "price_usd": null,
+      "price_low_usd": 35,
+      "price_high_usd": 59.99,
+      "unit": "per person, per entree/meal",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world-dining/",
+      "source_title": "Walt Disney World Dining - AllEars.Net",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "$$$$ tier (fine dining / premium signature dining)",
+      "price_usd": null,
+      "price_low_usd": 60,
+      "price_high_usd": null,
+      "unit": "per person, per entree/meal; $60 and up",
+      "date_verified": "2026-09-15",
+      "source_url": "https://allears.net/walt-disney-world-dining/",
+      "source_title": "Walt Disney World Dining - AllEars.Net",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": [
+    "Dollar bands for the $/$$/$$$/$$$$ symbols were confirmed via AllEars' synthesis of Disney's own dining price-point symbols, not pulled directly from a live disneyworld.disney.go.com restaurant listing in this session. Disney itself uses these symbols on individual restaurant pages but doesn't publish a single reference chart, so it's worth spot-checking against a current restaurant listing page."
+  ]
+}

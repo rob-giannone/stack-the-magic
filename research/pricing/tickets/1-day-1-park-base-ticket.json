@@ -1,0 +1,44 @@
+{
+  "name": "1-Day 1-Park Base Ticket",
+  "category": "ticket",
+  "subcategory": "base-ticket",
+  "price_points": [
+    {
+      "label": "1-Day 1-Park Base Ticket, lowest published starting price ('from' price shown on official ticket page)",
+      "price_usd": 119.00,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per ticket, per day, age 10+, lowest date-based pricing tier, before tax",
+      "date_verified": "2026-09-15",
+      "source_url": "https://disneyworld.disney.go.com/tickets/",
+      "source_title": "Walt Disney World Ticket Pricing",
+      "confidence": "official"
+    },
+    {
+      "label": "1-Day 1-Park Base Ticket, full published range across all date-based tiers (adult, age 10+)",
+      "price_usd": null,
+      "price_low_usd": 126.74,
+      "price_high_usd": 222.59,
+      "unit": "per ticket, per day, age 10+, including sales tax, across all date-based pricing tiers",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "1-Day 1-Park Base Ticket, full published range across all date-based tiers (child, ages 3-9)",
+      "price_usd": null,
+      "price_low_usd": 121.41,
+      "price_high_usd": 217.26,
+      "unit": "per ticket, per day, ages 3-9, including sales tax, across all date-based pricing tiers",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.mousesavers.com/regular-walt-disney-world-ticket-prices/",
+      "source_title": "Walt Disney World Ticket Prices - MouseSavers.com",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-12-14",
+  "needs_verification": [
+    "The official disneyworld.disney.go.com ticket page only surfaced a single 'from $119' starting price in this check, not the full high-end of the range. The $126.74-$222.59 range (tax-inclusive) is from MouseSavers' aggregation of Disney's own date-based calendar; the low end is consistent with the official pre-tax $119 figure (119 x 1.065 FL tax ≈ $126.74), which supports the figures, but the high end should be spot-checked on the official ticket calculator for a specific peak date."
+  ]
+}

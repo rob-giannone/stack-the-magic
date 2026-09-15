@@ -1,0 +1,33 @@
+{
+  "name": "Lightning Lane Multi Pass",
+  "category": "lightning-lane",
+  "subcategory": "multi-pass",
+  "price_points": [
+    {
+      "label": "Lightning Lane Multi Pass, typical per-person per-day range across all four parks and dates",
+      "price_usd": null,
+      "price_low_usd": 15,
+      "price_high_usd": 39,
+      "unit": "per person, per day, varies by park and date under demand-based pricing",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.thrill-data.com/lightning-lane-prices",
+      "source_title": "Walt Disney World Lightning Lane Pass Pricing - Thrill Data",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Lightning Lane Multi Pass, Magic Kingdom observed average",
+      "price_usd": 25,
+      "price_low_usd": null,
+      "price_high_usd": null,
+      "unit": "per person, per day, Magic Kingdom, average of tracked observed prices (not a fixed rate)",
+      "date_verified": "2026-09-15",
+      "source_url": "https://www.thrill-data.com/lightning-lane-prices",
+      "source_title": "Walt Disney World Lightning Lane Pass Pricing - Thrill Data",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": [
+    "The official disneyworld.disney.go.com Lightning Lane page returned truncated/incomplete content when fetched in this session, so no official-source price figure was directly captured - both price points here are from Thrill Data's tracked pricing history. Confirm current cost structure and whether Multi Pass is purchased standalone or bundled in the My Disney Experience app before relying on this for a specific date."
+  ]
+}

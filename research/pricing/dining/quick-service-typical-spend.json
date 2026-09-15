@@ -1,0 +1,42 @@
+{
+  "name": "Quick-Service Dining, Typical Per-Person Spend (Magic Kingdom)",
+  "category": "dining",
+  "subcategory": "quick-service-typical-spend",
+  "price_points": [
+    {
+      "label": "Typical quick-service entree",
+      "price_usd": null,
+      "price_low_usd": 12,
+      "price_high_usd": 18,
+      "unit": "per person, per quick-service entree, Magic Kingdom",
+      "date_verified": "2026-09-15",
+      "source_url": "https://magicguides.com/how-much-does-food-cost-at-disney-world/",
+      "source_title": "How Much does Food Cost at Disney World? - Magic Guides",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Typical snack",
+      "price_usd": null,
+      "price_low_usd": 5,
+      "price_high_usd": 12,
+      "unit": "per person, per snack item, Magic Kingdom",
+      "date_verified": "2026-09-15",
+      "source_url": "https://magicguides.com/how-much-does-food-cost-at-disney-world/",
+      "source_title": "How Much does Food Cost at Disney World? - Magic Guides",
+      "confidence": "fan-site"
+    },
+    {
+      "label": "Typical full-day quick-service food budget (1 QS meal + 2 snacks + beverages)",
+      "price_usd": null,
+      "price_low_usd": 50,
+      "price_high_usd": 75,
+      "unit": "per adult, per day, covering one quick-service meal, two snacks, and beverages at Magic Kingdom",
+      "date_verified": "2026-09-15",
+      "source_url": "https://magicguides.com/how-much-does-food-cost-at-disney-world/",
+      "source_title": "How Much does Food Cost at Disney World? - Magic Guides",
+      "confidence": "fan-site"
+    }
+  ],
+  "recheck_after": "2026-10-15",
+  "needs_verification": []
+}
