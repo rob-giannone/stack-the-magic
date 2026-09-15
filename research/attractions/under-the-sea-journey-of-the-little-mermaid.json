@@ -4,17 +4,18 @@
   "land": "Fantasyland",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "kiddie",
     "lightning_lane_type": "Multi Pass",
-    "rider_swap": false,
-    "description": "A slow-moving omnimover dark ride that retells The Little Mermaid's story through scenes populated with animatronic and painted characters.",
-    "indoor_outdoor": "indoor",
-    "attraction_type": "dark ride"
+    "lightning_lane_tier": "Tier 2",
+    "rider_swap_available": false,
+    "description": "A slow-moving omnimover dark ride that retells The Little Mermaid's story through scenes populated with animatronic and painted characters."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" },
     { "url": "https://www.mousehacking.com/blog/magic-kingdom-lightning-lanes-rides-and-strategy", "title": "Magic Kingdom Lightning Lanes Strategy 2026", "date_verified": "2026-09-15", "confidence": "fan-site" }
   ],
-  "needs_verification": []
+  "needs_verification": [
+    "Multi Pass Tier 2 classification sourced from fan-site summary rather than Disney's own tier listing — spot-check against the My Disney Experience app."
+  ]
 }

@@ -4,13 +4,11 @@
   "land": "Main Street U.S.A.",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "mild",
-    "lightning_lane_type": "none",
-    "rider_swap": false,
-    "description": "A vintage steam-powered train that circles the perimeter of Magic Kingdom, with boarding stations on Main Street, U.S.A., in Frontierland, and in Fantasyland.",
-    "indoor_outdoor": "outdoor",
-    "attraction_type": "scenic transport"
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A vintage steam-powered train that circles the perimeter of Magic Kingdom, with boarding stations on Main Street, U.S.A., in Frontierland, and in Fantasyland."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }

@@ -4,13 +4,11 @@
   "land": "Tomorrowland",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "mild",
-    "lightning_lane_type": "none",
-    "rider_swap": false,
-    "description": "A slow-moving, elevated people-mover that glides guests on a relaxing tour above and through Tomorrowland, including a pass through Space Mountain's show building.",
-    "indoor_outdoor": "outdoor/indoor hybrid",
-    "attraction_type": "scenic transport"
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "A slow-moving, elevated people-mover that glides guests on a relaxing tour above and through Tomorrowland, including a pass through Space Mountain's show building."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }

@@ -4,14 +4,11 @@
   "land": "Adventureland",
   "category": "attraction",
   "attributes": {
-    "height_requirement": null,
+    "height_requirement_inches": null,
     "thrill_level": "mild",
-    "lightning_lane_type": "none",
-    "rider_swap": false,
-    "description": "An audio-animatronic stage show starring a cast of singing tropical birds, flowers, and tiki gods, hosted by Jose, Michael, Pierre, and Fritz.",
-    "indoor_outdoor": "indoor",
-    "attraction_type": "theater show",
-    "operating_status": "Closed for refurbishment as of 2026-09-15"
+    "lightning_lane_type": "None",
+    "rider_swap_available": false,
+    "description": "An audio-animatronic stage show starring a cast of singing tropical birds, flowers, and tiki gods, hosted by Jose, Michael, Pierre, and Fritz."
   },
   "sources": [
     { "url": "https://disneyworld.disney.go.com/attractions/magic-kingdom/", "title": "Magic Kingdom Attractions and Rides | Walt Disney World Resort", "date_verified": "2026-09-15", "confidence": "official" }
