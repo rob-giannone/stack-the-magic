@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
 import { useOnboardingStore } from "@/lib/onboarding/store";
 import { TOTAL_STEPS } from "@/lib/onboarding/steps";
 import { WelcomeStep } from "./steps/welcome-step";
@@ -48,14 +47,7 @@ export function OnboardingWizard() {
     (step !== TRANSPORTATION_STEP_INDEX || profile.transportTolerance !== null);
 
   return (
-    <div className="mx-auto flex w-full max-w-2xl flex-col gap-8 px-4 py-12">
-      <div className="space-y-2">
-        <Progress value={((step + 1) / TOTAL_STEPS) * 100} />
-        <p className="text-xs text-muted-foreground">
-          Step {step + 1} of {TOTAL_STEPS}
-        </p>
-      </div>
-
+    <div className="flex w-full flex-col gap-8">
       <StepComponent />
 
       <div className="flex justify-between">
