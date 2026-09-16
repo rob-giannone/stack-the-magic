@@ -15,7 +15,7 @@ export function PartyStep() {
       subtitle="This helps us tailor ride heights, dining reservations, and stroller needs."
     >
       <div className="space-y-6">
-        <div className="flex items-center justify-between rounded-lg border bg-card p-4">
+        <div className="flex items-center justify-between rounded-lg border bg-card shadow-sm p-4">
           <div>
             <Label className="text-base">Adults</Label>
             <p className="text-sm text-muted-foreground">13 and up</p>
@@ -47,7 +47,7 @@ export function PartyStep() {
           )}
           <div className="space-y-2">
             {profile.kids.map((kid, index) => (
-              <div key={kid.id} className="flex items-center gap-3 rounded-lg border bg-card p-3">
+              <div key={kid.id} className="flex items-center gap-3 rounded-lg border bg-card shadow-sm p-3">
                 <span className="w-14 text-sm text-muted-foreground">Kid {index + 1}</span>
                 <Input
                   type="number"

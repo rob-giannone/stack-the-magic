@@ -20,7 +20,7 @@ export function ThrillStep() {
       title="How much thrill are you after?"
       subtitle="We'll weight ride recommendations toward this level for the whole party."
     >
-      <div className="space-y-6 rounded-lg border bg-card p-6">
+      <div className="space-y-6 rounded-lg border bg-card shadow-sm p-6">
         <Slider
           min={1}
           max={5}

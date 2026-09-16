@@ -69,7 +69,7 @@ export function TransportationStep() {
             key={option.id}
             className={`flex cursor-pointer items-start gap-3 rounded-lg border p-4 transition-colors ${
               profile.transportTolerance === option.id
-                ? "border-primary bg-primary/5"
+                ? "border-primary bg-primary/10 shadow-sm shadow-primary/10"
                 : "border-border bg-card"
             }`}
           >
