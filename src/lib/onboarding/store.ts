@@ -1,140 +1,109 @@
-import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import { useTripsStore } from "@/lib/trips/store";
+import { Trip } from "@/lib/trips/types";
+import { TOTAL_STEPS } from "./steps";
 import {
   AccessibilityNeed,
   BudgetTier,
   CharacterPreference,
   DEFAULT_PROFILE,
   DietaryRestriction,
-  Kid,
   OnboardingProfile,
   Pace,
   ThrillLevel,
   TransportTolerance,
   VisitHistory,
 } from "./types";
-import { TOTAL_STEPS } from "./steps";
 
-interface OnboardingState {
-  step: number;
-  profile: OnboardingProfile;
-  next: () => void;
-  back: () => void;
-  goTo: (step: number) => void;
-  reset: () => void;
-  setVisitHistory: (history: VisitHistory) => void;
-  setAdults: (adults: number) => void;
-  addKid: () => void;
-  removeKid: (id: string) => void;
-  updateKidAge: (id: string, age: number) => void;
-  toggleAccessibilityNeed: (need: AccessibilityNeed) => void;
-  setAccessibilityNotes: (notes: string) => void;
-  setThrillLevel: (level: ThrillLevel) => void;
-  toggleCharacter: (preference: CharacterPreference) => void;
-  toggleDietary: (restriction: DietaryRestriction) => void;
-  setDietaryNotes: (notes: string) => void;
-  setBudgetTier: (tier: BudgetTier) => void;
-  setPace: (pace: Pace) => void;
-  setTransportTolerance: (tolerance: TransportTolerance) => void;
+/**
+ * Thin adapter over the active trip's profile/step. Every onboarding step
+ * component reads and writes through this hook, so the multi-trip data
+ * model underneath (src/lib/trips/store.ts) can change without touching
+ * any step component.
+ */
+export function useOnboardingStore() {
+  const trips = useTripsStore((state) => state.trips);
+  const activeTripId = useTripsStore((state) => state.activeTripId);
+  const updateActiveTrip = useTripsStore((state) => state.updateActiveTrip);
+
+  const activeTrip = trips.find((trip) => trip.id === activeTripId);
+  const profile = activeTrip?.profile ?? DEFAULT_PROFILE;
+  const step = activeTrip?.step ?? 0;
+
+  const updateProfile = (updater: (profile: OnboardingProfile) => OnboardingProfile) =>
+    updateActiveTrip((trip: Trip) => ({ ...trip, profile: updater(trip.profile) }));
+
+  return {
+    step,
+    profile,
+
+    next: () =>
+      updateActiveTrip((trip) => ({ ...trip, step: Math.min(trip.step + 1, TOTAL_STEPS - 1) })),
+    back: () => updateActiveTrip((trip) => ({ ...trip, step: Math.max(trip.step - 1, 0) })),
+    goTo: (step: number) =>
+      updateActiveTrip((trip) => ({
+        ...trip,
+        step: Math.max(0, Math.min(step, TOTAL_STEPS - 1)),
+      })),
+    reset: () => updateActiveTrip((trip) => ({ ...trip, step: 0, profile: DEFAULT_PROFILE })),
+
+    setVisitHistory: (visitHistory: VisitHistory) => updateProfile((p) => ({ ...p, visitHistory })),
+
+    setAdults: (adults: number) => updateProfile((p) => ({ ...p, adults })),
+
+    addKid: () =>
+      updateProfile((p) => ({
+        ...p,
+        kids: [...p.kids, { id: crypto.randomUUID(), age: 5 }],
+      })),
+
+    removeKid: (id: string) =>
+      updateProfile((p) => ({ ...p, kids: p.kids.filter((kid) => kid.id !== id) })),
+
+    updateKidAge: (id: string, age: number) =>
+      updateProfile((p) => ({
+        ...p,
+        kids: p.kids.map((kid) => (kid.id === id ? { ...kid, age } : kid)),
+      })),
+
+    toggleAccessibilityNeed: (need: AccessibilityNeed) =>
+      updateProfile((p) => {
+        const current = p.accessibilityNeeds;
+        const accessibilityNeeds = current.includes(need)
+          ? current.filter((n) => n !== need)
+          : [...current, need];
+        return { ...p, accessibilityNeeds };
+      }),
+
+    setAccessibilityNotes: (accessibilityNotes: string) =>
+      updateProfile((p) => ({ ...p, accessibilityNotes })),
+
+    setThrillLevel: (thrillLevel: ThrillLevel) => updateProfile((p) => ({ ...p, thrillLevel })),
+
+    toggleCharacter: (preference: CharacterPreference) =>
+      updateProfile((p) => {
+        const current = p.characterPreferences;
+        const characterPreferences = current.includes(preference)
+          ? current.filter((c) => c !== preference)
+          : [...current, preference];
+        return { ...p, characterPreferences };
+      }),
+
+    toggleDietary: (restriction: DietaryRestriction) =>
+      updateProfile((p) => {
+        const current = p.dietaryRestrictions;
+        const dietaryRestrictions = current.includes(restriction)
+          ? current.filter((d) => d !== restriction)
+          : [...current, restriction];
+        return { ...p, dietaryRestrictions };
+      }),
+
+    setDietaryNotes: (dietaryNotes: string) => updateProfile((p) => ({ ...p, dietaryNotes })),
+
+    setBudgetTier: (budgetTier: BudgetTier) => updateProfile((p) => ({ ...p, budgetTier })),
+
+    setPace: (pace: Pace) => updateProfile((p) => ({ ...p, pace })),
+
+    setTransportTolerance: (transportTolerance: TransportTolerance) =>
+      updateProfile((p) => ({ ...p, transportTolerance })),
+  };
 }
-
-export const useOnboardingStore = create<OnboardingState>()(
-  persist(
-    (set) => ({
-      step: 0,
-      profile: DEFAULT_PROFILE,
-
-      next: () =>
-        set((state) => ({ step: Math.min(state.step + 1, TOTAL_STEPS - 1) })),
-      back: () => set((state) => ({ step: Math.max(state.step - 1, 0) })),
-      goTo: (step) =>
-        set(() => ({ step: Math.max(0, Math.min(step, TOTAL_STEPS - 1)) })),
-      reset: () => set(() => ({ step: 0, profile: DEFAULT_PROFILE })),
-
-      setVisitHistory: (visitHistory) =>
-        set((state) => ({ profile: { ...state.profile, visitHistory } })),
-
-      setAdults: (adults) =>
-        set((state) => ({ profile: { ...state.profile, adults } })),
-
-      addKid: () =>
-        set((state) => {
-          const kid: Kid = { id: crypto.randomUUID(), age: 5 };
-          return { profile: { ...state.profile, kids: [...state.profile.kids, kid] } };
-        }),
-
-      removeKid: (id) =>
-        set((state) => ({
-          profile: {
-            ...state.profile,
-            kids: state.profile.kids.filter((kid) => kid.id !== id),
-          },
-        })),
-
-      updateKidAge: (id, age) =>
-        set((state) => ({
-          profile: {
-            ...state.profile,
-            kids: state.profile.kids.map((kid) =>
-              kid.id === id ? { ...kid, age } : kid
-            ),
-          },
-        })),
-
-      toggleAccessibilityNeed: (need) =>
-        set((state) => {
-          const current = state.profile.accessibilityNeeds;
-          const accessibilityNeeds = current.includes(need)
-            ? current.filter((n) => n !== need)
-            : [...current, need];
-          return { profile: { ...state.profile, accessibilityNeeds } };
-        }),
-
-      setAccessibilityNotes: (accessibilityNotes) =>
-        set((state) => ({ profile: { ...state.profile, accessibilityNotes } })),
-
-      setThrillLevel: (thrillLevel) =>
-        set((state) => ({ profile: { ...state.profile, thrillLevel } })),
-
-      toggleCharacter: (preference) =>
-        set((state) => {
-          const current = state.profile.characterPreferences;
-          const characterPreferences = current.includes(preference)
-            ? current.filter((c) => c !== preference)
-            : [...current, preference];
-          return { profile: { ...state.profile, characterPreferences } };
-        }),
-
-      toggleDietary: (restriction) =>
-        set((state) => {
-          const current = state.profile.dietaryRestrictions;
-          const dietaryRestrictions = current.includes(restriction)
-            ? current.filter((d) => d !== restriction)
-            : [...current, restriction];
-          return { profile: { ...state.profile, dietaryRestrictions } };
-        }),
-
-      setDietaryNotes: (dietaryNotes) =>
-        set((state) => ({ profile: { ...state.profile, dietaryNotes } })),
-
-      setBudgetTier: (budgetTier) =>
-        set((state) => ({ profile: { ...state.profile, budgetTier } })),
-
-      setPace: (pace) => set((state) => ({ profile: { ...state.profile, pace } })),
-
-      setTransportTolerance: (transportTolerance) =>
-        set((state) => ({ profile: { ...state.profile, transportTolerance } })),
-    }),
-    {
-      name: "stm-onboarding-draft",
-      merge: (persistedState, currentState) => {
-        const persisted = (persistedState ?? {}) as Partial<OnboardingState>;
-        return {
-          ...currentState,
-          ...persisted,
-          profile: { ...currentState.profile, ...persisted.profile },
-        };
-      },
-    }
-  )
-);
