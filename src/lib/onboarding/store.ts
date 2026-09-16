@@ -3,10 +3,12 @@ import { Trip } from "@/lib/trips/types";
 import { TOTAL_STEPS } from "./steps";
 import {
   AccessibilityNeed,
+  ArrivalMethod,
   BudgetTier,
   CharacterPreference,
   DEFAULT_PROFILE,
   DietaryRestriction,
+  DiningPreference,
   OnboardingProfile,
   Pace,
   ThrillLevel,
@@ -65,6 +67,24 @@ export function useOnboardingStore() {
         kids: p.kids.map((kid) => (kid.id === id ? { ...kid, age } : kid)),
       })),
 
+    setTripStartDate: (tripStartDate: string) => updateProfile((p) => ({ ...p, tripStartDate })),
+
+    setTripEndDate: (tripEndDate: string) => updateProfile((p) => ({ ...p, tripEndDate })),
+
+    setParkDays: (parkDays: number) => updateProfile((p) => ({ ...p, parkDays })),
+
+    setParkHopper: (parkHopper: boolean) => updateProfile((p) => ({ ...p, parkHopper })),
+
+    setOnProperty: (onProperty: boolean) => updateProfile((p) => ({ ...p, onProperty })),
+
+    setHotelName: (hotelName: string) => updateProfile((p) => ({ ...p, hotelName })),
+
+    setArrivalMethod: (arrivalMethod: ArrivalMethod) =>
+      updateProfile((p) => ({ ...p, arrivalMethod })),
+
+    setFlyingFromAirportCode: (flyingFromAirportCode: string) =>
+      updateProfile((p) => ({ ...p, flyingFromAirportCode })),
+
     toggleAccessibilityNeed: (need: AccessibilityNeed) =>
       updateProfile((p) => {
         const current = p.accessibilityNeeds;
@@ -88,6 +108,9 @@ export function useOnboardingStore() {
         return { ...p, characterPreferences };
       }),
 
+    setFavoriteExperiences: (favoriteExperiences: string) =>
+      updateProfile((p) => ({ ...p, favoriteExperiences })),
+
     toggleDietary: (restriction: DietaryRestriction) =>
       updateProfile((p) => {
         const current = p.dietaryRestrictions;
@@ -98,6 +121,9 @@ export function useOnboardingStore() {
       }),
 
     setDietaryNotes: (dietaryNotes: string) => updateProfile((p) => ({ ...p, dietaryNotes })),
+
+    setDiningPreference: (diningPreference: DiningPreference) =>
+      updateProfile((p) => ({ ...p, diningPreference })),
 
     setBudgetTier: (budgetTier: BudgetTier) => updateProfile((p) => ({ ...p, budgetTier })),
 
