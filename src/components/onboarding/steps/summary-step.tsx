@@ -73,7 +73,7 @@ export function SummaryStep() {
       title="Here's your travel profile"
       subtitle="This is what we'll use to build your park plan. (Saving trips is coming soon.)"
     >
-      <div className="space-y-4 rounded-lg border bg-card p-6">
+      <div className="space-y-4 rounded-lg border bg-card shadow-sm p-6">
         <Row label="Visited before?">
           {profile.visitHistory ? VISIT_HISTORY_LABELS[profile.visitHistory] : "Not set"}
         </Row>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col bg-background">
+    <div className="flex flex-1 flex-col">
       <header className="flex items-center justify-between px-6 py-5 sm:px-10">
         <span className="text-lg font-semibold text-foreground">Stack the Magic</span>
         <Button nativeButton={false} render={<Link href="/onboarding" />}>

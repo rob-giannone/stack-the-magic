@@ -28,7 +28,7 @@ export function PaceStep() {
           <label
             key={option.id}
             className={`flex cursor-pointer items-start gap-3 rounded-lg border p-4 transition-colors ${
-              profile.pace === option.id ? "border-primary bg-primary/5" : "border-border bg-card"
+              profile.pace === option.id ? "border-primary bg-primary/10 shadow-sm shadow-primary/10" : "border-border bg-card"
             }`}
           >
             <RadioGroupItem value={option.id} className="mt-1" />

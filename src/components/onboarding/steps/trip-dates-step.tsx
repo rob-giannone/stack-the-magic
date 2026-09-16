@@ -64,7 +64,7 @@ export function TripDatesStep() {
             <label
               className={`flex flex-1 cursor-pointer items-center gap-3 rounded-lg border p-4 transition-colors ${
                 profile.parkHopper === true
-                  ? "border-primary bg-primary/5"
+                  ? "border-primary bg-primary/10 shadow-sm shadow-primary/10"
                   : "border-border bg-card"
               }`}
             >
@@ -74,7 +74,7 @@ export function TripDatesStep() {
             <label
               className={`flex flex-1 cursor-pointer items-center gap-3 rounded-lg border p-4 transition-colors ${
                 profile.parkHopper === false
-                  ? "border-primary bg-primary/5"
+                  ? "border-primary bg-primary/10 shadow-sm shadow-primary/10"
                   : "border-border bg-card"
               }`}
             >
