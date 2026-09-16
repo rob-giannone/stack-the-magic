@@ -6,6 +6,8 @@ import { TOTAL_STEPS } from "@/lib/onboarding/steps";
 import { WelcomeStep } from "./steps/welcome-step";
 import { VisitHistoryStep } from "./steps/visit-history-step";
 import { PartyStep } from "./steps/party-step";
+import { TripDatesStep } from "./steps/trip-dates-step";
+import { LodgingStep } from "./steps/lodging-step";
 import { AccessibilityStep } from "./steps/accessibility-step";
 import { ThrillStep } from "./steps/thrill-step";
 import { CharactersStep } from "./steps/characters-step";
@@ -19,6 +21,8 @@ const STEP_COMPONENTS = [
   WelcomeStep,
   VisitHistoryStep,
   PartyStep,
+  TripDatesStep,
+  LodgingStep,
   AccessibilityStep,
   ThrillStep,
   CharactersStep,
@@ -30,9 +34,9 @@ const STEP_COMPONENTS = [
 ];
 
 const VISIT_HISTORY_STEP_INDEX = 1;
-const BUDGET_STEP_INDEX = 7;
-const PACE_STEP_INDEX = 8;
-const TRANSPORTATION_STEP_INDEX = 9;
+const BUDGET_STEP_INDEX = 9;
+const PACE_STEP_INDEX = 10;
+const TRANSPORTATION_STEP_INDEX = 11;
 
 export function OnboardingWizard() {
   const { step, next, back, profile } = useOnboardingStore();

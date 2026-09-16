@@ -46,6 +46,25 @@ const ACCESSIBILITY_LABELS: Record<string, string> = {
   other: "Other accommodation",
 };
 
+const ARRIVAL_METHOD_LABELS: Record<string, string> = {
+  flying: "Flying in",
+  driving: "Driving",
+  other: "Other",
+};
+
+const DINING_PREFERENCE_LABELS: Record<string, string> = {
+  "quick-service": "Mostly quick service",
+  "table-service": "Mostly table service",
+  mix: "A mix of both",
+  "no-preference": "No preference",
+};
+
+function formatDate(value: string | null): string {
+  if (!value) return "Not set";
+  const date = new Date(`${value}T00:00:00`);
+  return date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
 export function SummaryStep() {
   const { profile, reset } = useOnboardingStore();
 
@@ -65,6 +84,30 @@ export function SummaryStep() {
             `, ${profile.kids.length} kid${profile.kids.length === 1 ? "" : "s"} (ages ${profile.kids
               .map((kid) => kid.age)
               .join(", ")})`}
+        </Row>
+        <Separator />
+        <Row label="Trip dates">
+          {profile.tripStartDate || profile.tripEndDate
+            ? `${formatDate(profile.tripStartDate)} – ${formatDate(profile.tripEndDate)}`
+            : "Not set"}
+        </Row>
+        <Separator />
+        <Row label="Park days">
+          {profile.parkDays ?? "Not set"}
+          {profile.parkHopper !== null &&
+            ` · Park Hopper: ${profile.parkHopper ? "Yes" : "No"}`}
+        </Row>
+        <Separator />
+        <Row label="Lodging">
+          {profile.onProperty !== null ? (profile.onProperty ? "On property" : "Off property") : "Not set"}
+          {profile.hotelName && ` — ${profile.hotelName}`}
+        </Row>
+        <Separator />
+        <Row label="Getting there">
+          {profile.arrivalMethod ? ARRIVAL_METHOD_LABELS[profile.arrivalMethod] : "Not set"}
+          {profile.arrivalMethod === "flying" &&
+            profile.flyingFromAirportCode &&
+            ` from ${profile.flyingFromAirportCode}`}
         </Row>
         <Separator />
         <Row label="Accessibility">
@@ -99,6 +142,12 @@ export function SummaryStep() {
             </div>
           )}
         </Row>
+        {profile.favoriteExperiences && (
+          <>
+            <Separator />
+            <Row label="Excited about">{profile.favoriteExperiences}</Row>
+          </>
+        )}
         <Separator />
         <Row label="Dietary">
           {profile.dietaryRestrictions.length === 0 && !profile.dietaryNotes ? (
@@ -113,6 +162,10 @@ export function SummaryStep() {
               {profile.dietaryNotes && <Badge variant="outline">{profile.dietaryNotes}</Badge>}
             </div>
           )}
+        </Row>
+        <Separator />
+        <Row label="Dining style">
+          {profile.diningPreference ? DINING_PREFERENCE_LABELS[profile.diningPreference] : "Not set"}
         </Row>
         <Separator />
         <Row label="Budget">{profile.budgetTier ?? "Not set"}</Row>
