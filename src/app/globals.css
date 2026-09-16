@@ -49,24 +49,24 @@
 }
 
 :root {
-  /* Florida-parks palette: navy for text/nav, teal + gold accents, warm off-white cards */
+  /* Florida-parks palette: navy for text/nav, teal + gold accents, white base */
   --background: #ffffff;
   --foreground: #16283f;
-  --card: #faf6ee;
+  --card: #ffffff;
   --card-foreground: #16283f;
   --popover: #ffffff;
   --popover-foreground: #16283f;
   --primary: #1c9c95;
   --primary-foreground: #ffffff;
-  --secondary: #faf6ee;
+  --secondary: #f6faf9;
   --secondary-foreground: #16283f;
-  --muted: #f4efe4;
+  --muted: #eff8f6;
   --muted-foreground: #5b6b80;
   --accent: #dba847;
   --accent-foreground: #16283f;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #e7e1d3;
-  --input: #e7e1d3;
+  --border: #e2ebe9;
+  --input: #e2ebe9;
   --ring: #1c9c95;
   --chart-1: #1c9c95;
   --chart-2: #dba847;
@@ -74,13 +74,13 @@
   --chart-4: #5b6b80;
   --chart-5: #9fd6d0;
   --radius: 0.75rem;
-  --sidebar: #faf6ee;
+  --sidebar: #ffffff;
   --sidebar-foreground: #16283f;
   --sidebar-primary: #1c9c95;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #dba847;
   --sidebar-accent-foreground: #16283f;
-  --sidebar-border: #e7e1d3;
+  --sidebar-border: #e2ebe9;
   --sidebar-ring: #1c9c95;
 }
 

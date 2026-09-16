@@ -31,7 +31,7 @@ export function CharactersStep() {
               <label
                 key={option.id}
                 className={`flex cursor-pointer items-center gap-3 rounded-lg border p-4 transition-colors ${
-                  checked ? "border-primary bg-primary/5" : "border-border bg-card"
+                  checked ? "border-primary bg-primary/10 shadow-sm shadow-primary/10" : "border-border bg-card"
                 }`}
               >
                 <Checkbox checked={checked} onCheckedChange={() => toggleCharacter(option.id)} />
